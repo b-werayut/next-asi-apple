@@ -137,7 +137,7 @@ export default function Home() {
             {testimonials.map((testimonial, index) => (
               <div key={index} className="p-8 rounded-2xl bg-white shadow-sm">
                 <p className="text-xl italic text-gray-600 mb-6">
-                  "{testimonial.quote}"
+                   {`"${testimonial.quote}"`}
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 h-12 rounded-full bg-gray-200 mr-4"></div>
@@ -233,7 +233,7 @@ const projects = [
 const testimonials = [
   {
     quote:
-      "ASI Connex transformed our operations with their innovative IoT solutions. Their team&quots expertise and dedication exceeded our expectations.",
+      "ASI Connex transformed our operations with their innovative IoT solutions. Their team's expertise and dedication exceeded our expectations.",
     name: "Sarah Johnson",
     position: "CTO, TechGlobal Inc.",
   },
