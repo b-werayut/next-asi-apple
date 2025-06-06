@@ -1,6 +1,5 @@
 import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
-// import { Reveal } from "@/components/Reveal";
 import { MdDevices } from "react-icons/md";
 import { BiNetworkChart } from "react-icons/bi";
 import { BsPersonWorkspace } from "react-icons/bs";
@@ -234,7 +233,7 @@ const projects = [
 const testimonials = [
   {
     quote:
-      "ASI Connex transformed our operations with their innovative IoT solutions. Their team's expertise and dedication exceeded our expectations.",
+      "ASI Connex transformed our operations with their innovative IoT solutions. Their team&quots expertise and dedication exceeded our expectations.",
     name: "Sarah Johnson",
     position: "CTO, TechGlobal Inc.",
   },
