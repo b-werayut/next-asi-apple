@@ -135,7 +135,7 @@ export default function Navbar() {
             </a>
             <a
               href="#contact"
-              className="block text-sm font-medium hover:text-gray-600"
+              className="block text-black text-sm font-medium hover:text-gray-400"
               onClick={() => setMobileMenuOpen(false)}
             >
               Contact Us

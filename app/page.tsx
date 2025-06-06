@@ -61,13 +61,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Language Carousel Section */}
-      <section className="py-16 px-6 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <LanguageCarousel />
-        </div>
-      </section>
-
       {/* Services Section */}
       <section id="services" className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
@@ -97,6 +90,12 @@ export default function Home() {
               );
             })}
           </div>
+          {/* Language Carousel Section */}
+          <section className="py-16 px-6 bg-white">
+            <div className="max-w-6xl mx-auto">
+              <LanguageCarousel />
+            </div>
+          </section>
         </div>
       </section>
 
@@ -175,7 +174,7 @@ export default function Home() {
                 Contact Information
               </h3>
               <div className="space-y-4 text-gray-600">
-                <p>1/55  1 ซอย  าภิบาล 14</p>
+                <p>1/55 1 ซอย าภิบาล 14</p>
                 <p>ถนนเพชรเกษม ตำบลธรรมassaลา อำเภอ นครปฐม จ.นครปฐม 73000</p>
                 <p>contact@asiconnex.com</p>
                 <p>(555) 123-4567</p>
@@ -255,4 +254,3 @@ const testimonials = [
     position: "Director of IT, Innovate Corp",
   },
 ];
-

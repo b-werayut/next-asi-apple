@@ -36,8 +36,8 @@ export default function LanguageCarousel() {
   };
   
   return (
-    <div className="w-full max-w-4xl mx-auto py-12">
-      <h3 className="text-2xl font-semibold text-center mb-8">Technologies We Work With</h3>
+    <div className="w-full max-w-4xl mx-auto py-2 ">
+      {/* <h3 className="text-2xl font-semibold text-center mb-8">Technologies We Work With</h3> */}
       
       <div className="relative h-80 overflow-hidden">
         <button 
