@@ -137,7 +137,7 @@ export default function Home() {
             {testimonials.map((testimonial, index) => (
               <div key={index} className="p-8 rounded-2xl bg-white shadow-sm">
                 <p className="text-xl italic text-gray-600 mb-6">
-                   {`"${testimonial.quote}"`}
+                  {`"${testimonial.quote}"`}
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 h-12 rounded-full bg-gray-200 mr-4"></div>
@@ -158,7 +158,7 @@ export default function Home() {
       <section id="contact" className="py-24 px-6 bg-gray-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center">
-            Get in Touch
+            Contact Us
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -167,8 +167,8 @@ export default function Home() {
                 Contact Information
               </h3>
               <div className="space-y-4 text-gray-600">
-                <p>123 Tech Avenue</p>
-                <p>San Francisco, CA 94107</p>
+                <p>1/55 หมู่ที่ 1 ซอย สุขาภิบาล 14</p>
+                <p>ถนนเพชรเกษม ตำบลธรรมศาลา อำเภอเมืองนครปฐม จ.นครปฐม 73000</p>
                 <p>contact@asiconnex.com</p>
                 <p>(555) 123-4567</p>
               </div>
@@ -214,19 +214,22 @@ const projects = [
   {
     title: "Smart City Infrastructure",
     description: "Integrated IoT network for urban management and monitoring.",
-    image: "https://static.vecteezy.com/system/resources/thumbnails/019/046/479/small_2x/smart-grid-cities-png.png",
+    image:
+      "https://static.vecteezy.com/system/resources/thumbnails/019/046/479/small_2x/smart-grid-cities-png.png",
   },
   {
     title: "Enterprise Cloud Migration",
     description:
       "Seamless transition of legacy systems to modern cloud architecture.",
-    image: "https://synoptekmark.b-cdn.net/wp-content/uploads/2019/12/tl-a-practical-guide-to-cloud-migration.png",
+    image:
+      "https://synoptekmark.b-cdn.net/wp-content/uploads/2019/12/tl-a-practical-guide-to-cloud-migration.png",
   },
   {
     title: "Industrial IoT Platform",
     description:
       "Connected manufacturing solution improving efficiency by 35%.",
-    image: "https://png.pngtree.com/png-clipart/20240517/original/pngtree-iot-office-technology-isometric-composition-png-image_15117752.png",
+    image:
+      "https://png.pngtree.com/png-clipart/20240517/original/pngtree-iot-office-technology-isometric-composition-png-image_15117752.png",
   },
 ];
 
