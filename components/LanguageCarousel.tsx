@@ -61,7 +61,7 @@ export default function LanguageCarousel() {
             className="flex items-center justify-center h-full"
           >
             <div className="text-center">
-              <div className="w-60 h-60 mx-auto relative mb-2">
+              <div className="w-60 h-60 mx-auto max-md:w-50 relative mb-2">
                 <Image
                   src={languages[currentIndex].icon}
                   alt={languages[currentIndex].name}
