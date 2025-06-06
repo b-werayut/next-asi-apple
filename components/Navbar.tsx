@@ -107,28 +107,28 @@ export default function Navbar() {
           <div className="px-6 py-4 space-y-4">
             <a
               href="#about"
-              className="block text-sm font-medium hover:text-gray-600"
+              className="block text-black text-sm font-medium hover:text-gray-400"
               onClick={() => setMobileMenuOpen(false)}
             >
               About
             </a>
             <a
               href="#services"
-              className="block text-sm font-medium hover:text-gray-600"
+              className="block text-black text-sm font-medium hover:text-gray-400"
               onClick={() => setMobileMenuOpen(false)}
             >
               Services
             </a>
             <a
               href="#portfolio"
-              className="block text-sm font-medium hover:text-gray-600"
+              className="block text-black text-sm font-medium hover:text-gray-400"
               onClick={() => setMobileMenuOpen(false)}
             >
               Projects
             </a>
             <a
               href="#testimonials"
-              className="block text-sm font-medium hover:text-gray-600"
+              className="block text-black text-sm font-medium hover:text-gray-400"
               onClick={() => setMobileMenuOpen(false)}
             >
               Testimonials
