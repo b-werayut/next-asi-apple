@@ -4,6 +4,7 @@ import { MdDevices } from "react-icons/md";
 import { BiNetworkChart } from "react-icons/bi";
 import { BsPersonWorkspace } from "react-icons/bs";
 import { FaCloud } from "react-icons/fa";
+import LanguageCarousel from "@/components/LanguageCarousel";
 
 export default function Home() {
   const urlimg =
@@ -57,6 +58,13 @@ export default function Home() {
             digital connectivity and smart solutions tailored for modern
             businesses.
           </p>
+        </div>
+      </section>
+
+      {/* Language Carousel Section */}
+      <section className="py-16 px-6 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <LanguageCarousel />
         </div>
       </section>
 
@@ -167,8 +175,8 @@ export default function Home() {
                 Contact Information
               </h3>
               <div className="space-y-4 text-gray-600">
-                <p>1/55 หมู่ที่ 1 ซอย สุขาภิบาล 14</p>
-                <p>ถนนเพชรเกษม ตำบลธรรมศาลา อำเภอเมืองนครปฐม จ.นครปฐม 73000</p>
+                <p>1/55  1 ซอย  าภิบาล 14</p>
+                <p>ถนนเพชรเกษม ตำบลธรรมassaลา อำเภอ นครปฐม จ.นครปฐม 73000</p>
                 <p>contact@asiconnex.com</p>
                 <p>(555) 123-4567</p>
               </div>
@@ -247,3 +255,4 @@ const testimonials = [
     position: "Director of IT, Innovate Corp",
   },
 ];
+
