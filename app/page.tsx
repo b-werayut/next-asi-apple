@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
-import { Reveal } from "@/components/Reveal";
+// import { Reveal } from "@/components/Reveal";
 import { MdDevices } from "react-icons/md";
 import { BiNetworkChart } from "react-icons/bi";
 import { BsPersonWorkspace } from "react-icons/bs";
