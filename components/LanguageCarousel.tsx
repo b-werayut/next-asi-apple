@@ -5,10 +5,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 
 const languages = [
-  // { name: 'JavaScript', icon: 'https://www.citypng.com/public/uploads/preview/js-javascript-round-logo-icon-png-7017516947717339mnyf7eumy.png' },
+  { name: 'JavaScript', icon: '/assets/logo/js-logo.png' },
   { name: 'SQL Server', icon: '/assets/logo/sql-logo.png' },
   { name: 'React', icon: 'https://images-cdn.openxcell.com/wp-content/uploads/2024/07/25085005/reactjs-inner.svg' },
-  { name: 'Node.js', icon: 'https://images-cdn.openxcell.com/wp-content/uploads/2024/07/25090553/nodejs-inner.webp' },
+  { name: 'Node.js', icon: '/assets/logo/node-logo.png' },
   // { name: 'Next.js', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV9uzErWz9EXqZDxZ5lP9aYpMz8eK6rr5X3w&s' },
 ];
 
